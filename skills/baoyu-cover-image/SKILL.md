@@ -627,12 +627,18 @@ If `cover.png` already exists in the output directory:
 - Rename to `cover-backup-YYYYMMDD-HHMMSS.png`
 
 **Image Generation Skill Selection**:
+<<<<<<< HEAD
 1. Check available image generation skills
 2. If multiple skills available, ask user preference
 3. Call selected skill with:
    - Prompt file path
    - Output image path: `cover.png`
    - Aspect ratio parameter
+=======
+1. Priority: `baoyu-wuli-art-web` (preferred)
+2. Fallback: `baoyu-danger-gemini-web` (if wuli-art unavailable)
+3. Read selected skill's SKILL.md for parameter reference
+>>>>>>> 10c9892 (Update skills and add new features)
 
 **On failure**: Auto-retry once before reporting error.
 

@@ -365,8 +365,9 @@ The watermark should be legible but not distracting from the main content.
 Reference: `references/config/watermark-guide.md`
 
 **Image Generation Skill Selection**:
-- Check available image generation skills
-- If multiple skills available, ask user preference
+1. Priority: `baoyu-wuli-art-web` (preferred)
+2. Fallback: `baoyu-danger-gemini-web` (if wuli-art unavailable)
+3. Read selected skill's SKILL.md for parameter reference
 
 **Session Management**:
 If image generation skill supports `--sessionId`:

@@ -489,6 +489,7 @@ options:
 - If `skip_prompt_review` is true → Skip Step 6, go to Step 7
 - If `skip_prompt_review` is false → Continue to Step 6
 
+<<<<<<< HEAD
 ### Step 6: Review Prompts (Conditional)
 
 **Skip this step** if user selected "No, skip prompt review" in Step 2.
@@ -542,6 +543,17 @@ options:
 3. Generate each slide sequentially with same session ID
 4. Report progress: "Generated X/N" (in user's language)
 5. Auto-retry once on failure before reporting error
+=======
+**Image Generation Skill Selection**:
+1. Priority: `baoyu-wuli-art-web` (preferred)
+2. Fallback: `baoyu-danger-gemini-web` (if wuli-art unavailable)
+3. Read selected skill's SKILL.md for parameter reference
+
+**Generation Flow**:
+1. Generate session ID: `slides-{topic-slug}-{timestamp}`
+2. Generate each slide with same session ID
+3. Report progress: "Generated X/N"
+>>>>>>> 10c9892 (Update skills and add new features)
 
 ### Step 8: Merge to PPTX and PDF
 

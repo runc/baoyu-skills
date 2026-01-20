@@ -145,10 +145,27 @@ tests-data/
 # Skill extensions (user customization)
 .baoyu-skills/
 x-to-markdown/
+<<<<<<< HEAD
 xhs-images/
 url-to-markdown/
 cover-image/
 slide-deck/
 infographic/
 illustrations/
+=======
+
+
+
+# Local directories
+dan/
+koe/
+dan-koe/
+
+# Dot-prefixed directories
+.*/
+
+.env
+
+0120记录/
+>>>>>>> 10c9892 (Update skills and add new features)
 comic/

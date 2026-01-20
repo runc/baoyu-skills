@@ -32,7 +32,11 @@
       "strict": false,
       "skills": [
         "./skills/baoyu-danger-gemini-web",
+<<<<<<< HEAD
         "./skills/baoyu-image-gen"
+=======
+        "./skills/baoyu-wuli-art-web"
+>>>>>>> 10c9892 (Update skills and add new features)
       ]
     },
     {

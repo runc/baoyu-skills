@@ -189,7 +189,14 @@ Input → Preferences → Analyze → [Check Existing?] → [Confirm: Style + Re
 | 8 | Merge to PDF | `{slug}.pdf` |
 | 9 | Completion report | Summary |
 
+<<<<<<< HEAD
 ### Step 7: Image Generation ⚠️ CRITICAL
+=======
+**Image Generation Skill Selection**:
+1. Priority: `baoyu-wuli-art-web` (preferred)
+2. Fallback: `baoyu-danger-gemini-web` (if wuli-art unavailable)
+3. Read selected skill's SKILL.md for parameter reference
+>>>>>>> 10c9892 (Update skills and add new features)
 
 **Character reference is MANDATORY for visual consistency.**
 

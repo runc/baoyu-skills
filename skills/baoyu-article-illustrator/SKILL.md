@@ -251,7 +251,36 @@ Insert after corresponding paragraph:
 
 Alt text: concise description in article's language.
 
+<<<<<<< HEAD
 **6.2 Output Summary**
+=======
+**Image Generation Skill Selection**:
+1. Priority: `baoyu-wuli-art-web` (preferred)
+2. Fallback: `baoyu-danger-gemini-web` (if wuli-art unavailable)
+3. Read selected skill's SKILL.md for parameter reference
+
+**Generation Flow**:
+1. Call selected image generation skill with prompt file and output path
+2. Generate images sequentially
+3. After each image, output progress: "Generated X/N"
+4. On failure, auto-retry once
+5. If retry fails, log reason, continue to next
+
+### Step 7: Update Article
+
+Insert generated images at corresponding positions:
+
+```markdown
+![illustration description]([article-name]/illustrations/illustration-[slug].png)
+```
+
+**Insertion Rules**:
+- Insert image after corresponding paragraph
+- Leave one blank line before and after image
+- Alt text uses concise description in article's language
+
+### Step 8: Output Summary
+>>>>>>> 10c9892 (Update skills and add new features)
 
 ```
 Article Illustration Complete!
