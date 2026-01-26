@@ -1,0 +1,26 @@
+{
+  "name": "remotion-animations",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render Master out/terminal.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/cli": "^4.0.407",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.407"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
